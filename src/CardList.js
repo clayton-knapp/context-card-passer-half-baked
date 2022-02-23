@@ -3,22 +3,25 @@ import Card from './Card';
 
 export default function CardList({ 
   cards, 
-  setSelectedCard, 
   player, 
-  setFrom, 
-  selectedCard 
+  // setFrom, 
+  // selectedCard, 
+  // setSelectedCard, 
 }) {
-  
+
+
+
+
   return (
     <div className='card-list'>
       {
         cards.map((card => <Card 
           key={card.suit + card.value} 
-          setSelectedCard={setSelectedCard} 
-          selectedCard={selectedCard}
           player={player}
-          setFrom={setFrom}
           card={card}
+          // setSelectedCard={setSelectedCard} 
+          // selectedCard={selectedCard}
+          // setFrom={setFrom}
         />))
       }
     </div>

@@ -12,6 +12,7 @@ const GameContext = createContext();
 //create a function called GameProvider that takes in children object - define your state here and bundle it in and object
 //then return your GameContext component with the value= your bundled state object
 //AND pass children inside of the tags
+//When we call Game Provider component and stick App in it, App becomes the Children and renders inside of it
 export default function GameProvider({ children }) {
 
   const [deck, setDeck] = useState(initialCards);
