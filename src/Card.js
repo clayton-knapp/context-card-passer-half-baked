@@ -7,7 +7,13 @@ const suitMap = {
   diamonds: '♦️',
 };
 
-export default function Card({ card, selectedCard, setSelectedCard, setFrom, player }) {
+export default function Card({ 
+  card, 
+  selectedCard, 
+  setSelectedCard, 
+  setFrom, 
+  player 
+}) {
   function handleCardClick() {
     setFrom(player);
     setSelectedCard(card);

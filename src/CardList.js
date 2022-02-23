@@ -1,7 +1,14 @@
 import React from 'react';
 import Card from './Card';
 
-export default function CardList({ cards, setSelectedCard, player, setFrom, selectedCard }) {
+export default function CardList({ 
+  cards, 
+  setSelectedCard, 
+  player, 
+  setFrom, 
+  selectedCard 
+}) {
+  
   return (
     <div className='card-list'>
       {
