@@ -6,10 +6,8 @@ export default function Player(
   { 
     player, 
     hand, 
-    
     // to, 
-    // setTo, 
-
+    // setTo,
     // setFrom, 
     // setSelectedCard, 
     // selectedCard, 

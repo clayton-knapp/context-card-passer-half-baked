@@ -17,6 +17,7 @@ export default function Card(
     // setFrom, 
   }
 ) {
+  
   const { selectedCard, setSelectedCard, setFrom } = useGameContext();
 
   function handleCardClick() {
