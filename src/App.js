@@ -56,6 +56,7 @@ function App() {
   return (
     <div className="App">
       <section>
+        <h2>Card Game</h2>
         {/* if the player names are numbers, that will make our life easier later because we can reuse numbers as arrays. Note that this will make our app brittle! */}
         <Player 
           player={1} 
